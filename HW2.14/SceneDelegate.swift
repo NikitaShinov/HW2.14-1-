@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  HW2.14
 //
-//  Created by max on 12.12.2021.
+//  Created by Никита Шинов on 12.12.2021.
 //
 
 import UIKit
