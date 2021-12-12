@@ -75,9 +75,10 @@ class TasksViewController: UITableViewController {
             isDone(true)
         }
         
-        let doneAction = UIContextualAction(style: .normal, title: "Done") { _, _, _ in
+        let doneAction = UIContextualAction(style: .normal, title: "Done") { _, _, isDone in
             StorageManager.shared.done(task)
             self.sortTasks()
+            isDone(true)
         }
         
         editAction.backgroundColor = .orange
